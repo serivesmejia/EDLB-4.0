@@ -1,0 +1,78 @@
+#-------------------------------------------------------------------------------#
+#Lang file                                                                      #
+#Here you can change all the RFTB plugin messages.                              #
+#                                                                               #
+#You can use & for colors. In each option you'll have some variables to use     #
+#For example: the variable $PLAYER in the first option returns the player name. #
+#                                                                               #
+#Feel free to change everything you need!                                       #
+#-------------------------------------------------------------------------------#
+
+#The join message, use $PLAYER for the player name
+#If empty, the join message will be not show.
+joinMessage: '&7[&e+&7]&e $PLAYER'
+
+#The quit message, use $PLAYER for the player name
+#If empty, the quit message will be not show.
+quitMessage: '&7[&c-&7]&e $PLAYER'
+
+#The prefix of all plugin messages
+chatPrefix: '&7[&eEDLB&7]'
+
+#No permission message
+noPermission: '&cYou dont have permissions for use this command!'
+
+#Command error message, if a argument is not a number
+notaNumber: '&cThe argument should be a number.'
+
+#Spawn location setted message
+spawnSet: '&2The spawn location has been setted sucesfully!'
+
+#Teleport to spawn message
+tpSpawn: '&2Teleporting to the spawn...'
+
+#Message when the spawn location isn't set
+spawnNotSet: '&cThe spawn location isnt set!. Use /edlb spawn set to set the spawn location.'
+
+#Message when a player joins the arena
+#Use $PLAYER to get the player name and $RESTANT to get the restant players to start the game
+playerJoinArena: '&e$PLAYER join the arena!, &9$RESTANT &eplayers more to start!'
+
+#Message when a player quits the arena
+#Use $PLAYER to get the player name and $RESTANT to get the restant players to start the game
+playerQuitArena: '&c$PLAYER quit the arena!, &9$RESTANT &eplayers more to start!'
+
+#Message when a plugin command is executed in the console
+onlyPlayerExecutable: 'This command can only be executed by a player.'
+
+#Starting arena setup message
+startingSetup: '&eStarting arena setup...'
+
+#Message if you want to create a arena, but you're alredy in a arena setup
+arenaSetupAlredy: '&cYou are alredy in a arena setup!'
+
+#Message when arena setup is cancelled
+arenaSetupCancelled: '&9Cancelling arena setup...'
+
+#Message when arena setup is cancelled
+arenaSetupTOut: '&9Cancelling arena setup because you timed out...'
+
+#Arena setup steps
+Step1: '&9Step 1: &eEnter the min players to start the arena'
+Step2: '&9Step 2: &eEnter the max players of the arena'
+Step3: '&9Step 3: &eEnter the arena game duration (In minutes)'
+Step4: '&9Step 4: &eStand in the arena spawn position and then chat &2set 1'
+Step5: '&9Step 5: &eStand in the beast spawn position and then chat &2set 2'
+Step6: '&9Step 6: &eStand in the arena start position and then chat &2set 3'
+
+#Message when you finish the arena setup
+arenaSetupEnd: '&eYou finished the arena setup! The arena is now playable.'
+#Use $name to get the arena name
+arenaSetupEnd2: '&eTo enter to the arena create a new arena sign or just use /edlb arena join $name'
+
+#Message if a value should be between a number range
+#Use $1 to get the first value, and $2 to get the second one
+shouldBeBetween: '&cThe number should be between $1 and $2.'
+
+#Message if a value is not an integer
+notAInt: '&cThe argument should be a integer.'

@@ -1,0 +1,24 @@
+name: EDLB
+main: io.github.serivesmejia.EDLB.Main
+author: serivesmejia
+version: 1.0.0
+commands:
+    edlb:
+        usage: /<command> <args>
+        description: Comando principal de el plugin EDLB
+    rftb:
+        usage: /<command> <args>
+        description: Main command of RFTB plugin.
+    edlb help:
+        usage: /<command>
+        description: Shows all the commands of the EDLB plugin
+    edlb spawn set:
+        usage: /<command>  <x> <y> <z> <pitch> <yaw>
+        description: Sets the spawn location
+    edlb spawn tp:
+        usage: /<command>
+        description: Teleports you to the spawn
+    edlb spawn:
+        usage: /<command>
+        description: Shows all the spawn commands
+   

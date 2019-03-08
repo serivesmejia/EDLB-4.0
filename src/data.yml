@@ -1,0 +1,15 @@
+players: []
+  
+slb: false 
+spawnlX: 'null'
+spawnlY: 'null'
+spawnlZ: 'null'
+spawnlPI: 'null'
+spawnlYW: 'null' 
+spawnlW: 'null'
+
+arenas:
+
+signs:
+
+c: 0
